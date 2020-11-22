@@ -1,6 +1,6 @@
 ## Lecture 9: Security and Cryptography
 
-1. Entropy
+1. Entropy (formula doesn't display properly on Github)
 
 - $entropy=4\times log_2100000=66.4 \; bits$
 
@@ -21,12 +21,12 @@ cmp README.md README.dec.md
 
 4. Asymmetric
 
--  ```shell
-  ssh-keygen -t ed25519
-   ```
+```shell
+ssh-keygen -t ed25519
 
-- ```shell
-  git commit -a -S -m 'signed commit'
-  git show --show-signature
-  ```
+git commit -a -S -m 'signed commit'
+git show --show-signature
+```
+
+
 
