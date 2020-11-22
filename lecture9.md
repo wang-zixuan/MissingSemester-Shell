@@ -13,7 +13,7 @@
 3. Symmetric cryptography
 
 ```shell
-openssl aes-256-cbc -pbkdf2 in README.md -out README.enc.md
+openssl aes-256-cbc -pbkdf2 -in README.md -out README.enc.md
 cat README.enc.md
 openssl aes-256-cbc -pbkdf2 -d -in README.enc.md -out README.dec.md
 cmp README.md README.dec.md
