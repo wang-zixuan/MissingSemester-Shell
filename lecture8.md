@@ -28,9 +28,8 @@
    then
      echo "make done."	
    else
-   	cat <<\EOF
+     cat <<\EOF
    Error: Can't make paper.pdf. 
-   
    EOF
    	exit 1
    fi
