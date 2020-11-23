@@ -4,18 +4,18 @@
    git clone git@github.com:missing-semester/missing-semester.git
    ```
 
-   1. ```shell
-      git log --all --graph --decorate
-      ```
+   ```shell
+   git log --all --graph --decorate
+   ```
 
-   2. ```shell
-      git log -- README.md
-      ```
+   ```shell
+   git log -- README.md
+   ```
 
-   3. ```shell
-      git blame _config.yml
-      git show a88b4eac
-      ```
+   ```shell
+   git blame _config.yml
+   git show a88b4eac
+   ```
 
 3. ```shell
    cd demo

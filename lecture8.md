@@ -2,13 +2,13 @@
 
 1. ```shell
    paper.pdf: paper.tex plot-a.png
-   	pdflatex paper.tex
+       pdflatex paper.tex
    
    plot-%.png: %.dat plot.py
-   	./plot.py -i $*.dat -o $@
+       ./plot.py -i $*.dat -o $@
    
    clean:
-   	rm paper.pdf
+       rm paper.pdf
    ```
 
 3. ```shell
@@ -26,12 +26,12 @@
    
    if make
    then
-     echo "make done."	
+       echo "make done."	
    else
-     cat <<\EOF
+       cat <<\EOF
    Error: Can't make paper.pdf. 
    EOF
-   	exit 1
+   	  exit 1
    fi
    ```
 
