@@ -1,4 +1,4 @@
-## Lecture 7: Debugging and Profiling
+## Lecture7: Debugging and Profiling
 
 ### Debugging
 

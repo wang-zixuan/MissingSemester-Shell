@@ -1,4 +1,4 @@
-## Lecture 11: Q & A
+## Lecture11: Q & A
 
 1. Difference between `source script.sh` and `./script.sh`
 

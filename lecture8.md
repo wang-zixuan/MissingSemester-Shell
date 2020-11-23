@@ -1,4 +1,4 @@
-## Lecture 8: Metaprogramming
+## Lecture8: Metaprogramming
 
 1. ```shell
    paper.pdf: paper.tex plot-a.png

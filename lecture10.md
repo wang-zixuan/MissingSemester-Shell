@@ -1,4 +1,4 @@
-## Lecture 10: Potpourri
+## Lecture10: Potpourri
 
 ### Daemons
 
@@ -8,7 +8,7 @@ It's a series of processes that are always running in the background rather than
 
 Off-site backup is a recommended practice.
 
-### Commin command-line flags/patterns
+### Common command-line flags/patterns
 
 - `--help`, `--version`, `-V`, `-vvv`, `--quiet` are supported by most tools.
 - `--` makes a program stop processing flags and options in what follows, such as `rm -- -r` and `ssh machine --for-ssh -- foo --for-foo`.

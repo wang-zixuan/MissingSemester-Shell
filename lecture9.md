@@ -1,4 +1,4 @@
-## Lecture 9: Security and Cryptography
+## Lecture9: Security and Cryptography
 
 1. Entropy (formula doesn't display properly on Github)
 
