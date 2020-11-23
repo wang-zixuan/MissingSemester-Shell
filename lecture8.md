@@ -31,7 +31,7 @@
        cat <<\EOF
    Error: Can't make paper.pdf. 
    EOF
-   	  exit 1
+       exit 1
    fi
    ```
 
