@@ -46,7 +46,7 @@
 
    ```shell
    [alias]
-           graph = log --all --graph --decorate --oneline
+       graph = log --all --graph --decorate --oneline
    ```
 
 6. ```shell
